@@ -44,6 +44,8 @@ Ex:
 - Email: Your Jira account email ie: user@email.com
 - API Token: **\*\*\*\***\*\*\*\***\*\*\*\***
 
+Note: API Tokens are based on specific users.  This means that the Email field needs to match the email of the person who created the API Token.  So, if john@gmail.com creates an API Token, then the Email field should be "john@gmail.com".  Later on, if laura@gmail.com creates a new API Token and replaces it in the Jira Project on Salesforce, then the Email field must also be changed to "laura@gmail.com".
+
 [<img src="https://github.com/Laura-Mgenio/jira-salesforce-link-public/blob/main/Wiki/images/figure20.png" width="450"/>](https://github.com/Laura-Mgenio/jira-salesforce-link-public/blob/main/Wiki/images/figure20.png)
 
 - Click Save
